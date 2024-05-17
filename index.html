@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador de Palabras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Generador de Palabras</h1>
+    <label for="category">Selecciona una categoría:</label>
+    <select id="category">
+      <option value="professions">Profesiones</option>
+      <option value="animals">Animales</option>
+      <option value="colors">Colores</option>
+    </select>
+    <button id="generateBtn">Generar Palabras</button>
+    <button id="playBtn" disabled>Reproducir Palabras</button>
+    <div id="wordList" class="word-list"></div>
+    <div id="selectOptions" class="select-options"></div>
+    <button id="submitBtn" disabled>Enviar</button>
+    <div id="result" class="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
